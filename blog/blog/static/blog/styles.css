@@ -1,0 +1,83 @@
+/* Navbar */
+#navbar {
+    background-color: rgb(228, 153, 1);
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo img {
+    height: 2.5em;  /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    /* margin-left: 20px; Adjust margin as needed */
+    margin-left: 1.3em; /* Adjust margin as needed */
+    padding-top: 0.3em;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0.625em;
+    padding-top: 0.125em;
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+}
+
+#navbar ul li a:hover {
+    /* background-color: #ffffff; */
+    color: gray;
+}
+
+/* Blog Title */
+h1 {
+    text-align: center; /* Center-align the blog title */
+}
+
+/* Post Title */
+.post-title {
+    text-align: center; /* Center-align the title */
+}
+
+.post-title h2 {
+    color: rgb(228, 153, 1); 
+    font-size: 1.5em; 
+    margin: 1.5em;
+}
+
+/* Post Details */
+.post-details {
+    text-align: center; /* Center-align the details */
+    margin-bottom: -2.0em;
+    margin-top: -2.0em;
+}
+
+/* Post and Comments */
+.post-comment {
+    padding: 1.2em; /* Add padding */
+    margin-top: 2.5em;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+}
+
+/* Post Body */
+.post-body {
+    background-color: #fcf8f0; /* Optional: Add a background color */
+    padding: 1.2em; /* Add padding */
+}
+
+.comment-textbox textarea {
+    width: 100%
+}
+
+/* Comments */
+.comments-section {
+    background-color: white; /* Background color for comments section */
+    padding: 1em;
+}
